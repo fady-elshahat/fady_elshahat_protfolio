@@ -1,12 +1,50 @@
-# React + Vite
+🚀 Personal Portfolio – Built with React & Framer Motion
+This is my personal portfolio website built using React, featuring smooth animations with Framer Motion. It showcases my professional experience, projects, and client testimonials — all in a modern, responsive design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠️ Tech Stack
+React – UI components
+Framer Motion – page & element animations
+Tailwind CSS – fast and modern styling
 
-Currently, two official plugins are available:
+✨ Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ About Me – Highlights my journey as a frontend developer
+💼 Experience – Companies and roles I’ve worked in
+🧩 Projects – Real-world projects with live demos
+🌟 Client Testimonials – Feedback from Upwork clients
+📱 Fully responsive for mobile and tablet
+⚡ Smooth transitions & animations using Framer Motion
 
-## Expanding the ESLint configuration
+💼 Experience Section
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Displays the companies I've worked at, including:
+Company names
+Job roles
+Duration
+Key achievements and technologies used
+
+🧩 Projects Section
+
+Each project includes:
+Project name
+Live demo link
+Technologies used
+Short description of my role
+
+🌟 Client Testimonials
+
+Integrated directly from Upwork clients who’ve worked with me, highlighting:
+Client satisfaction
+Communication & delivery quality
+Project outcomes
+
+#####################################################################################
+
+📸 Preview
+
+🔗 Live Demo: https://your-live-site.com
+
+
+
+
+
