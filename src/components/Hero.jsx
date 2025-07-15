@@ -1,4 +1,4 @@
-     /* eslint-disable no-unused-vars */
+/* eslint-disable no-unused-vars */
 
 import { HERO_CONTENT } from './../constants';
 import ProfilePic from './../assets/fady-hero.jpg';
@@ -45,6 +45,20 @@ const Hero = () => {
                                    className='my-4 max-w-xl font-light tracking-tight text-sm sm:text-base md:text-lg text-gray-300'>
                                    { HERO_CONTENT }
                               </motion.p>
+
+                              <motion.div
+                                   variants={ container( 0.7 ) }
+                                   initial="hidden"
+                                   animate="show"
+                              >
+                                   <a
+                                        href="../../public/FADY ELSHAHAT SAIED_CV.pdf"
+                                        download
+                                        className="inline-block bg-purple-700  px-6 py-2 rounded-xl shadow-md hover:bg-purple-950 transition duration-300"
+                                   >
+                                        Download CV
+                                   </a>
+                              </motion.div>
                          </div>
                     </div>
 
@@ -57,6 +71,8 @@ const Hero = () => {
                               className='rounded-full w-48 h-48 sm:w-56 sm:h-56 lg:w-72 lg:h-72 object-cover shadow-lg'
                          />
                     </div>
+
+
 
                </div>
           </section>
