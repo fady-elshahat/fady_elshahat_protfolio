@@ -9,6 +9,13 @@ export const ABOUT_TEXT = `Hi, I’m Fady Elshahat, a Front-End Developer with 3
 `
 export const EXPERIENCES = [
   {
+    year: "2025 - Present",
+    role: "Mid-Level Front-End Eng",
+    company: "Etmam - KSA (Onsite)",
+    description: `Developed and optimized front-end dashboards that visualize IoT device data through interactive charts, maps, and real-time readings. Utilized Angular with PrimeNG for building dynamic UI components and integrated Google Maps to display device locations and status. Focused on transforming complex sensor data into clear, insightful, and user-friendly interfaces.`,
+    technologies: [ "Tailwind Css", "Google analytics", "Angular", "Google Maps" ],
+  },
+  {
     year: "2021 - present",
     role: "Front-End Developer",
     company: "Upwork",

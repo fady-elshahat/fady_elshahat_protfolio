@@ -18,7 +18,7 @@ const container = ( delay ) => ( {
 
 const Hero = () => {
      return (
-          <section className='hero min-h-screen border-b border-neutral-900 pb-4 mb-15 md:mb-24  px-4 sm:px-6 lg:px-10'>
+          <section className='hero min-h-screen border-b border-neutral-900 mb-5  px-4 sm:px-6 lg:px-10'>
                <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 ">
 
                     <div className='w-full lg:w-1/2 text-center lg:text-left'>
@@ -52,7 +52,7 @@ const Hero = () => {
                                    animate="show"
                               >
                                    <a
-                                        href="../../public/FADY ELSHAHAT SAIED_CV.pdf"
+                                        href="../../public/Fady Elshahat Saied.pdf"
                                         download
                                         className="inline-block bg-purple-700  px-6 py-2 rounded-xl shadow-md hover:bg-purple-950 transition duration-300"
                                    >
