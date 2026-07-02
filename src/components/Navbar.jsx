@@ -7,7 +7,7 @@ import { FaUpwork } from "react-icons/fa6";
 const Navbar = () => {
 
      return (
-          <nav className="navbar py-8 px-4 sm:px-6 lg:px-10">
+          <nav className="navbar py-8">
                <div className="flex justify-between items-center flex-shrink-0 w-full">
                     <div className="logo">
                          <GradualSpacing text="FADY." />
