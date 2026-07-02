@@ -2,62 +2,92 @@ import larat from "../assets/projects/larat.png";
 import card4games from "../assets/projects/card4games.png";
 import tahkem from "../assets/projects/tahkem.png";
 import educavo from "../assets/projects/educavo.png";
+import Bookto from "../assets/projects/Bookto.png";
 
-export const HERO_CONTENT = `I'm a Front-End Developer with 3+ years of experience crafting modern, responsive web interfaces. I specialize in Angular and React, and use tools like Tailwind CSS and Bootstrap to bring UI/UX designs to life with precision. I focus on writing clean, maintainable code, integrating APIs, and optimizing for speed and performance — always striving to learn, grow, and deliver real value through every project.`;
+export const HERO_CONTENT = `I'm a Front-End Developer with 5+ years of experience building responsive, scalable, and high-performance web applications. I specialize in Angular, React.js, TypeScript, and RESTful API integration, with hands-on experience delivering booking platforms, interactive dashboards, and business-focused digital products.`;
 
-export const ABOUT_TEXT = `Hi, I’m Fady Elshahat, a Front-End Developer with 3+ years of experience building responsive and user-focused web applications. I specialize in Angular and also work confidently with React, Tailwind CSS, Bootstrap, and TypeScript. I’ve collaborated with teams in Egypt, Saudi Arabia (Roomz Arabia), and the US (Hype Experiences), delivering projects in e-commerce, gaming, and ERP systems. I have strong expertise in building complex, interactive dashboards with clean architecture and efficient state management. I’m skilled in turning UI/UX designs into pixel-perfect interfaces and integrating RESTful APIs — always aiming for high performance and a great user experience.
-`
+export const ABOUT_TEXT = `I am a Front-End Developer focused on building modern, user-centered web experiences that are fast, scalable, and maintainable. Over the past 5+ years, I’ve worked across travel booking systems, IoT dashboards, e-commerce platforms, and freelance client projects, turning UI/UX designs into production-ready applications using Angular, React.js, TypeScript, Tailwind CSS, and Bootstrap. I enjoy building reusable architectures, seamless booking flows, and API-driven interfaces that solve real business problems and deliver a smooth user experience.`;
+
 export const EXPERIENCES = [
   {
-    year: "2025 - Present",
-    role: "Mid-Level Front-End Eng",
-    company: "Etmam - KSA (Onsite)",
-    description: `Developed and optimized front-end dashboards that visualize IoT device data through interactive charts, maps, and real-time readings. Utilized Angular with PrimeNG for building dynamic UI components and integrated Google Maps to display device locations and status. Focused on transforming complex sensor data into clear, insightful, and user-friendly interfaces.`,
-    technologies: [ "Tailwind Css", "Google analytics", "Angular", "Google Maps" ],
+    year: "July 2025 - Present",
+    role: "Senior Front-End Engineer",
+    company: "Techeffic - Full-time (Remote)",
+    description: `• Developed front-end features across Flight, Hotel, Transfer, and Travel Insurance modules, enabling users to search, compare, and book services seamlessly.
+• Owned end-to-end development of the Transfer and Travel Insurance modules, integrating RESTful APIs for real-time pricing, availability, and provider data.
+• Built responsive, multi-step booking flows with form validation to guide users through complex transfer and insurance purchase journeys.`,
+    technologies: [ "Angular", "Tailwind CSS", "RESTful APIs", "Form Validation" ],
   },
   {
-    year: "2021 - present",
+    year: "April 2025 - May 2026",
+    role: "Senior Front-End Engineer",
+    company: "Etmam - Part Time - KSA (Remote)",
+    description: `• Integrated Google Maps API for device location tracking and status display.
+• Transformed sensor data into clear, user-friendly visualizations for faster decision-making.
+• Collaborated with backend teams to ensure seamless data flow via RESTful APIs.`,
+    technologies: [ "Tailwind CSS", "Google Analytics", "Angular", "Google Maps" ],
+  },
+  {
+    year: "July 2021 - Present",
     role: "Front-End Developer",
-    company: "Upwork",
-    description: `Top Rated Freelancer on Upwork: Recognized for consistently delivering high-quality projects, maintaining a 90%+ job success score, and exceptional client satisfaction.`,
-    technologies: [ "Javascript", "React.js", "WordPress", "Angular" ],
+    company: "Upwork (upwork.com/freelancers/fady.e)",
+    description: `• Delivered high-quality freelance projects for global clients, maintaining a 90%+ Job Success Score. Specialized in transforming complex client requirements into scalable web solutions and seamless user experiences.`,
+    technologies: [ "JavaScript", "React.js", "WordPress", "Angular" ],
   },
   {
-    year: "2023 - 2024",
+    year: "April 2023 - December 2024",
     role: "Mid-Level Front-End Developer",
-    company: "EgyCard - Egypt",
-    description: `Contributed to the front-end development lifecycle from design to deployment, ensuring clean, scalable code and on-time delivery. Collaborated on integrating RESTful APIs, payment gateways, and used Git following best practices.`,
+    company: "EgyCard – Egypt (www.card4games.com/)",
+    description: `• Integrated RESTful APIs, payment gateways, and third-party services with backend teams.
+• Directed Git workflow standards for branching and pull requests.`,
     technologies: [ "HTML", "CSS", "Angular", "NgRx" ],
   },
   {
-    year: "2021 - 2023",
-    role: " Front-End Developer",
-    company: "Roomz Arabia – KSA (Remote)",
-    description: `Built responsive websites and dashboards from UI/UX designs, ensuring brand consistency, cross-browser compatibility, and smooth payment integration. Followed clean code practices and used Git for version control.`,
-    technologies: [ "PrimeNg", "SCSS", "Angular", "Google analytics" ],
+    year: "March 2021 - June 2023",
+    role: "Front-End Developer",
+    company: "Roomz Arabia – KSA",
+    description: `• Converted UI/UX designs (e.g., from Figma, Sketch, or Adobe XD) into functional code and ensure the designs are consistent with the brand’s guidelines.
+• Tested websites on multiple browsers to ensure compatibility and consistent user experience across platforms.
+• Wrote clean, well-documented, and maintainable code that follows coding standards and version control practices using Git.
+• Implemented mobile-first, responsive web designs using CSS media queries to ensure web applications are functional on different devices.`,
+    technologies: [ "PrimeNG", "SCSS", "Angular", "Google Analytics" ],
   },
   {
-    year: "2023 - (6 month) ",
-    role: " Angular Developer",
-    company: "Larat – UAE (Contract)",
-    description: `Developed the main dashboard for Larat using Angular, focusing on dynamic data visualization, responsive layout, and smooth API integration. Ensured maintainable code structure and optimized performance using Angular best practices.`,
-    technologies: [ "PrimeNg", "Angular", "SCSS" ],
+    year: "2023 (6 months)",
+    role: "Angular Developer",
+    company: "Larat Platform – Saudi Arabia (www.larat.online/en-US)",
+    description: `• Built reusable components and implemented state management using RxJS for smooth data flow.
+• Collaborated closely with UI/UX designers and backend developers to align functionality with design specs and business logic.
+• Implemented role-based access control using Angular Guards to ensure dashboard security.
+• Improved performance by applying best practices in lazy loading and on-demand module rendering.`,
+    technologies: [ "PrimeNG", "Angular", "SCSS" ],
   },
   {
-    year: "2021 - 2022",
-    role: "UI Developer ",
-    company: "Hype Experiences - San Francisco (Remote)",
-    description: `Assist in developing responsive and user-friendly web interfaces using HTML5, CSS3, and JavaScript.`,
-    technologies: [ "Html", "Css", "Bootstrap", "Jquery" ],
+    year: "December 2021 - August 2022",
+    role: "UI Developer",
+    company: "Hype Experiences - San Francisco",
+    description: `• Developed and optimized responsive, user-friendly web interfaces using HTML5, CSS3, and JavaScript.`,
+    technologies: [ "HTML", "CSS", "Bootstrap", "jQuery" ],
   },
 ];
 
 export const PROJECTS = [
   {
+    title: "Travel Booking Platforms (AlKhamees - Wyanaa - Bookto)",
+    image: Bookto,
+    description: 'Travel booking platform that helps users discover destinations and book handpicked trips with a smooth, user-friendly experience.',
+    technologies: [ "HTML", "SCSS", "Angular", "Firebase", "Bootstrap", 'NG-ZORRO' ],
+    links: [ 
+      { name: 'AlKhamees', url: 'https://alkhameestravel.com/' }, 
+      { name: 'Wyanaa', url: 'https://wyanaa.com/' }, 
+      { name: 'Bookto', url: 'https://bookto.com/' } 
+    ]
+  },
+  {
     title: "Card4Games",
     image: card4games,
     description: 'Card4Games is a responsive e-commerce platform for selling digital gaming cards, featuring multi-vendor support, secure payments, and real-time product availability.',
-    technologies: [ "HTML", "SCSS", "Angular", "Firebase", "Bootstrap", 'NgZoro' ],
+    technologies: [ "HTML", "SCSS", "Angular", "Firebase", "Bootstrap", 'NG-ZORRO' ],
     link: "https://card4games.com/en"
   },
   {
@@ -65,7 +95,7 @@ export const PROJECTS = [
     image: larat,
     description:
       "Larat is a Saudi digital real estate platform licensed by the General Authority for Real Estate. Larat provides a reliable environment that brings together advertisers, brokers, owners, and property seekers in one place, with advanced technical solutions.",
-    technologies: [ "HTML", "css", "Angular", "PrimeNg", "NgRx" ],
+    technologies: [ "HTML", "CSS", "Angular", "PrimeNG", "NgRx" ],
     link: "https://www.larat.online/en-US"
   },
   {
@@ -81,7 +111,7 @@ export const PROJECTS = [
     image: educavo,
     description:
       "Educavo is an educational website template showcasing online courses, instructor profiles, and blog sections. Built with a responsive design and modern UI components for a clean learning experience.",
-    technologies: [ "HTML", "CSS", "JavaScripy", "Jquery", "Animation" ],
+    technologies: [ "HTML", "CSS", "JavaScript", "jQuery", "Animation" ],
     link: "https://fady-elshahat-educavo-website.netlify.app/"
 
   },
@@ -92,7 +122,7 @@ export const PROJECTS = [
 export const TESTIMONIALS = [
   {
     name: "Mikolaj",
-    cuntry: "Poland",
+    country: "Poland",
     title: "Front End Development for HelpDocs page",
     image: "https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png",
     message:
@@ -101,7 +131,7 @@ export const TESTIMONIALS = [
   },
   {
     name: "Yannick B",
-    cuntry: "Germany",
+    country: "Germany",
     title: "Quick help needed: Copy Javascript Code from a page",
     image: "https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-2.png",
     message:
@@ -110,7 +140,7 @@ export const TESTIMONIALS = [
   },
   {
     name: "Omar Alhaj",
-    cuntry: "Saudi Arabia",
+    country: "Saudi Arabia",
     title: "Angular Frontend developer to apply Figma designs on exist template",
     image: "https://i.pravatar.cc/100?img=14",
     message: "He is doing his best always.",
@@ -118,7 +148,7 @@ export const TESTIMONIALS = [
   },
   {
     name: "Ben Smith",
-    cuntry: "United States",
+    country: "United States",
     title: "Front End Dev needed to translate Adobe XD file into Typescript",
     image: "https://i.pravatar.cc/100?img=12",
     message:
@@ -127,7 +157,7 @@ export const TESTIMONIALS = [
   },
   {
     name: "Murilo M",
-    cuntry: "Switzerland",
+    country: "Switzerland",
     title: "Binding Angular to an API",
     image: "https://i.pravatar.cc/100?img=6",
     message:
@@ -136,7 +166,7 @@ export const TESTIMONIALS = [
   },
   {
     name: "Ahmed Abdelaziz",
-    cuntry: "Egypt",
+    country: "Egypt",
     title: "Frontend developer needed to create landing pages",
     image: "https://i.pravatar.cc/100?img=18",
     message:
@@ -148,7 +178,7 @@ export const TESTIMONIALS = [
 export const CONTACT = {
   phoneNo: "201272115242",
   email: "fady.elshahat@gmail.com",
-  address: "Cairo, Egypt",
+  address: "Alexandria, Egypt",
   linkedIn: "https://www.linkedin.com/in/fady-elshahat-88052420b/",
   github: "https://github.com/fady-elshahat",
   upwork: "https://www.upwork.com/freelancers/~01bce05da1f628d350",

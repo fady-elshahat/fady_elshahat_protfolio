@@ -19,13 +19,13 @@ const iconAnimate = ( index ) => ( {
      },
 } );
 
-const Technologis = () => {
+const Technologies = () => {
      return (
-          <section className='about border-b border-neutral-900 pb-15 px-4 sm:px-6 lg:px-10'>
-               <h2 className='my-10 md:my-20 text-center text-3xl md:text-4xl'>
+          <section className='about border-b border-neutral-900 pb-20 md:pb-24'>
+               <h2 className='my-16 md:my-20 text-center text-2xl md:text-4xl font-bold tracking-tight'>
                     TECHNOLOGIES
                </h2>
-               <div className='flex flex-wrap items-center justify-center gap-4'>
+               <div className='flex flex-wrap items-center justify-center gap-6 md:gap-8'>
                     <motion.div
                          variants={ iconAnimate( 1 ) }
                          initial="initial"
@@ -105,4 +105,4 @@ const Technologis = () => {
      )
 }
 
-export default Technologis
+export default Technologies

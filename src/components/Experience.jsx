@@ -24,13 +24,13 @@ const containerEnd = ( delay ) => ( {
 } )
 const Experience = () => {
      return (
-          <section className='experience border-b border-neutral-900 pb-4 px-4 sm:px-6 lg:px-10'>
-               <h2 className='my-10 md:my-20 text-center text-3xl md:text-4xl'>
+          <section className='experience border-b border-neutral-900 pb-20 md:pb-24'>
+               <h2 className='my-16 md:my-20 text-center text-2xl md:text-4xl font-bold tracking-tight'>
                     EXPERIENCE
                </h2>
                <div>
                     { EXPERIENCES.map( ( experience, index ) => (
-                         <div key={ index } className='mb-8 flex flex-wrap items-baseline lg:justify-center'>
+                         <div key={ index } className='mb-16 flex flex-col lg:flex-row items-baseline lg:justify-center gap-4 lg:gap-8'>
                               <motion.div
                                    variants={ containerStart( 0.5 ) }
                                    initial="hidden"
@@ -53,7 +53,7 @@ const Experience = () => {
                                              { experience.company }
                                         </span>
                                    </h4>
-                                   <p className='mb-4 text-neutral-400'>{ experience.description }</p>
+                                   <p className='mb-4 text-neutral-400 whitespace-pre-line'>{ experience.description }</p>
                                    { experience.technologies.map( ( tech, techIndex ) => (
                                         <span key={ techIndex } className='me-2 mt-4 rounded-xl bg-neutral-900 px-2 py-1 text-sm font-semibold text-purple-900'>
                                              { tech }

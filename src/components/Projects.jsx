@@ -17,16 +17,16 @@ const cardVariants = {
 
 const Projects = () => {
      return (
-          <section className="projects border-b border-neutral-900 pb-16 px-4 sm:px-6 lg:px-20 ">
-               <h2 className="my-10 md:my-20 text-center text-3xl md:text-4xl">
+          <section className="projects border-b border-neutral-900 pb-20 md:pb-24 ">
+               <h2 className="my-16 md:my-20 text-center text-2xl md:text-4xl font-bold tracking-tight">
                     PROJECTS
                </h2>
 
-               <div className="flex flex-col gap-12">
+               <div className="flex flex-col gap-16">
                     { PROJECTS.map( ( project, index ) => (
                          <motion.div
                               key={ index }
-                              className="flex flex-col md:flex-row gap-6 justify-center "
+                              className="flex flex-col md:flex-row gap-8 lg:gap-12 justify-center "
                               variants={ cardVariants }
                               initial="hidden"
                               whileInView="visible"
@@ -34,7 +34,7 @@ const Projects = () => {
                               custom={ index }
                          >
                               {/* Image */ }
-                              <div className="w-full md:w-1/5">
+                              <div className="w-full lg:w-1/3">
                                    <img
                                         src={ project.image }
                                         alt={ project.title }
@@ -44,11 +44,11 @@ const Projects = () => {
                               </div>
 
                               {/* Content */ }
-                              <div className="w-full md:w-2/3">
+                              <div className="w-full lg:w-2/3">
                                    <h3 className="text-lg md:text-xl font-semibold text-white mb-2">
                                         { project.title }
                                    </h3>
-                                   <p className="text-sm text-neutral-400 mb-3">
+                                   <p className="text-sm text-neutral-400 mb-3 whitespace-pre-line">
                                         { project.description }
                                    </p>
 
@@ -63,16 +63,29 @@ const Projects = () => {
                                         ) ) }
                                    </div>
 
-                                   { project.link && (
-                                        <a
-                                             href={ project.link }
-                                             target="_blank"
-                                             rel="noopener noreferrer"
-                                             className="text-sm text-purple-400 underline underline-offset-2 hover:text-purple-300 transition"
-                                        >
-                                             Live Demo
-                                        </a>
-                                   ) }
+                                   <div className="flex flex-wrap gap-4">
+                                        { project.link && (
+                                             <a
+                                                  href={ project.link }
+                                                  target="_blank"
+                                                  rel="noopener noreferrer"
+                                                  className="text-sm text-purple-400 underline underline-offset-2 hover:text-purple-300 transition"
+                                             >
+                                                  Live Demo
+                                             </a>
+                                        ) }
+                                        { project.links && project.links.map( ( link, i ) => (
+                                             <a
+                                                  key={ i }
+                                                  href={ link.url }
+                                                  target="_blank"
+                                                  rel="noopener noreferrer"
+                                                  className="text-sm text-purple-400 underline underline-offset-2 hover:text-purple-300 transition"
+                                             >
+                                                  Live Demo { link.name }
+                                             </a>
+                                        ) ) }
+                                   </div>
                               </div>
                          </motion.div>
                     ) ) }

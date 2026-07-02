@@ -15,7 +15,7 @@ const cardVariants = {
           }
      } )
 };
-const TestimonialCard = ( { name, title, image, message, cuntry, link, index } ) => {
+const TestimonialCard = ( { name, title, image, message, country, link, index } ) => {
      return (
           <motion.div
                key={ index }
@@ -60,7 +60,7 @@ const TestimonialCard = ( { name, title, image, message, cuntry, link, index } )
                               <p className="text-base font-bold  font-pj">{ name }</p>
                               <p className="mt-0.5 text-sm font-pj text-neutral-400">{ title }</p>
                               <p className="mt-0.5 text-sm font-pj text-neutral-400">
-                                   { cuntry }
+                                   { country }
                               </p>
 
 

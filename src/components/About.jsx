@@ -5,18 +5,18 @@ const About = () => {
      return (
 
 
-          <section className="about border-b border-neutral-900 pb-4 px-4 sm:px-6 lg:px-10">
-               <h2 className="my-10 md:my-20 text-center text-3xl md:text-4xl">
+          <section className="about border-b border-neutral-900 pb-20 md:pb-24">
+               <h2 className="my-16 md:my-20 text-center text-2xl md:text-4xl font-bold tracking-tight">
                     ABOUT <span className="text-neutral-500">Me</span>
                </h2>
 
-               <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
+               <div className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-20">
 
                    
 
                     <div className="w-full lg:w-1/2 lg:p-8">
                          <div className="flex justify-center lg:justify-start">
-                              <p className="my-2 max-w-xl text-base sm:text-lg text-center lg:text-left text-neutral-300 leading-relaxed">
+                              <p className="my-2 max-w-xl text-base sm:text-lg text-center lg:text-left text-neutral-300 leading-loose">
                                    { ABOUT_TEXT }
                               </p>
                          </div>

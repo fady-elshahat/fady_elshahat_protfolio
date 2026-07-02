@@ -7,17 +7,17 @@ import { motion } from "framer-motion";
 
 const Testimonial = () => {
      return (
-          <section className='about border-b border-neutral-900 pb-15 px-4 sm:px-6 lg:px-10'>
-               <h2 className='my-20 text-center text-4xl'>
+          <section className='about border-b border-neutral-900 pb-20 md:pb-24'>
+               <h2 className='my-16 md:my-20 text-center text-2xl md:text-4xl font-bold tracking-tight'>
                     TESTIMONIALS
                </h2>
                <div className="flex flex-col items-center">
                     <div className="text-center">
                          <p className="text-lg font-medium  font-pj">
-                              +50 people have said how good Fady
+                              Over 50 people have praised Fady's work
                          </p>
                          <h2 className="mt-4 text-2xl font-bold  sm:text-4xl xl:text-5xl font-pj">
-                              Our happy clients say about us
+                              What our happy clients say
                          </h2>
                     </div>
 
@@ -42,7 +42,7 @@ const Testimonial = () => {
                                         index={ index }
                                         name={ testimonial.name }
                                         title={ testimonial.title }
-                                        cuntry={ testimonial.cuntry }
+                                        country={ testimonial.country }
                                         message={ testimonial.message }
                                         image={ testimonial.image }
                                         link={ testimonial.link }

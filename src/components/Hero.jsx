@@ -18,8 +18,8 @@ const container = ( delay ) => ( {
 
 const Hero = () => {
      return (
-          <section className='hero min-h-screen border-b border-neutral-900 mb-5  px-4 sm:px-6 lg:px-10'>
-               <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 ">
+          <section className='hero min-h-[75vh] border-b border-neutral-900 pb-20 md:pb-24'>
+               <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-16 ">
 
                     <div className='w-full lg:w-1/2 text-center lg:text-left'>
                          <div className='flex flex-col items-center lg:items-start'>
@@ -42,7 +42,7 @@ const Hero = () => {
                                    variants={ container( 0.5 ) }
                                    initial="hidden"
                                    animate="show"
-                                   className='my-4 max-w-xl font-light tracking-tight text-sm sm:text-base md:text-lg text-gray-300'>
+                                   className='my-4 max-w-xl font-light tracking-tight text-sm sm:text-base md:text-lg text-gray-300 leading-relaxed'>
                                    { HERO_CONTENT }
                               </motion.p>
 
@@ -52,7 +52,7 @@ const Hero = () => {
                                    animate="show"
                               >
                                    <a
-                                        href="../../public/Fady Elshahat Saied.pdf"
+                                        href="/Fady Elshahat Saied.pdf"
                                         download
                                         className="inline-block bg-purple-700  px-6 py-2 rounded-xl shadow-md hover:bg-purple-950 transition duration-300"
                                    >

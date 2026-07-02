@@ -2,7 +2,7 @@ import './App.css'
 import About from './components/About'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
-import Technologis from './components/Technologis'
+import Technologies from './components/Technologies'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Testimonial from './components/Testimonial'
@@ -27,7 +27,7 @@ function App() {
             <Navbar />
             <Hero />
             <About />
-            <Technologis />
+            <Technologies />
             <Experience />
             <Projects />
             <Testimonial />

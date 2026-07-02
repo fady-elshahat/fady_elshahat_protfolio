@@ -4,8 +4,8 @@ import { FaUpwork } from "react-icons/fa6";
 
 const Contacts = () => {
      return (
-          <section className='experience border-b border-neutral-900 pb-4 px-4 sm:px-6 lg:px-10'>
-               <h2 className='my-10 md:my-20 text-center text-3xl md:text-4xl bg-gradient-to-r from-pink-300   to-purple-300 bg-clip-text text-transparent'>
+          <section className='experience border-b border-neutral-900 pb-20 md:pb-24'>
+               <h2 className='my-16 md:my-20 text-center text-2xl md:text-4xl font-bold tracking-tight bg-gradient-to-r from-pink-300   to-purple-300 bg-clip-text text-transparent'>
                     GET IN TOUCH
                </h2>
                <div className='text-center  text-lg tracking-tighter '>
@@ -13,9 +13,9 @@ const Contacts = () => {
                          { CONTACT.address }
                     </p>
 
-                    <p className='my-3'>
-                         { CONTACT.phoneNo }
-                    </p>
+                    <a className='my-3 block' href={ `https://wa.me/${ CONTACT.phoneNo }` } target="_blank">
+                         +{ CONTACT.phoneNo }
+                    </a>
                     <a className='my-3 border-b' href={ `mailto:${ CONTACT.email }` } >
                          { CONTACT.email }
                     </a>
@@ -25,7 +25,7 @@ const Contacts = () => {
                     <a className="cursor-pointer " href={ CONTACT.linkedIn } target="_blank" >
                          <FaLinkedin />
                     </a>
-                    <a className="cursor-pointer " href={ `https://wa.me/${ CONTACT.phoneNo }}` } target="_blank" >
+                    <a className="cursor-pointer " href={ `https://wa.me/${ CONTACT.phoneNo }` } target="_blank" >
                          <FaWhatsapp />
                     </a>
                     <a className="cursor-pointer " href={ CONTACT.upwork } target="_blank" >
