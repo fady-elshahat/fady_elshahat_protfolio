@@ -3,6 +3,8 @@ import card4games from "../assets/projects/card4games.png";
 import tahkem from "../assets/projects/tahkem.png";
 import educavo from "../assets/projects/educavo.png";
 import Bookto from "../assets/projects/Bookto.png";
+import enjaz from "../assets/projects/enjaz.png";
+import alrahal from "../assets/projects/alrahal.png";
 
 export const HERO_CONTENT = `I'm a Front-End Developer with 5+ years of experience building responsive, scalable, and high-performance web applications. I specialize in Angular, React.js, TypeScript, and RESTful API integration, with hands-on experience delivering booking platforms, interactive dashboards, and business-focused digital products.`;
 
@@ -73,15 +75,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Travel Booking Platforms (AlKhamees - Wyanaa - Bookto)",
+    title: "Travel Booking Platforms",
     image: Bookto,
     description: 'Travel booking platform that helps users discover destinations and book handpicked trips with a smooth, user-friendly experience.',
-    technologies: [ "HTML", "SCSS", "Angular", "Firebase", "Bootstrap", 'NG-ZORRO' ],
-    links: [ 
-      { name: 'AlKhamees', url: 'https://alkhameestravel.com/' }, 
-      { name: 'Wyanaa', url: 'https://wyanaa.com/' }, 
-      { name: 'Bookto', url: 'https://bookto.com/' } 
-    ]
+    technologies: [ "HTML", "SCSS", "Angular", "Firebase", "Bootstrap", 'PrimeNg' ],
+    
   },
   {
     title: "Card4Games",
@@ -107,6 +105,22 @@ export const PROJECTS = [
     link: "https://tahkem.sa/"
   },
   {
+    title: "Enjaz Moving",
+    image: enjaz, 
+    description:
+      "Enjaz Moving is a reliable and professional furniture moving company in Saudi Arabia, providing comprehensive services including dismantling, packing, moving, and installation for residential and commercial clients.",
+    technologies: [ "HTML", "CSS", "JavaScript", "WordPress" ],
+    link: "https://enjazmoving.site"
+  },
+  {
+    title: "Al-Rahal Moving",
+    image: alrahal, 
+    description:
+      "Al-Rahal Moving is a top choice for safe furniture transportation from Taif to cities across Saudi Arabia. Offering high-quality moving services with specialized teams and modern equipment.",
+    technologies: [ "HTML", "CSS", "JavaScript", "WordPress" ],
+    link: "https://alrahar.com/"
+  },
+  {
     title: "Educavo Website",
     image: educavo,
     description:
@@ -115,6 +129,7 @@ export const PROJECTS = [
     link: "https://fady-elshahat-educavo-website.netlify.app/"
 
   },
+ 
 ];
 
 
